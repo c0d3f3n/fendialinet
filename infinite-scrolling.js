@@ -62,7 +62,7 @@ $jscomp.polyfill("Array.prototype.find", function(a) {
             window.FB && window.FB.XFBML && window.FB.XFBML.parse && window.FB.XFBML.parse();
             window.twttr && window.twttr.widgets && window.twttr.widgets.load && window.twttr.widgets.load();
             b ? e = b.attr("href") : (e = "", c.hide());
-            c.find("img").show();
+            c.find("img.lazyload").show();
             c.find("a").show();
             f = !1
         })) : c.hide())
